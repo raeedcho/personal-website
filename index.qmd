@@ -1,0 +1,25 @@
+---
+title: "raeed chowdhury"
+about:
+  template: jolla
+  image: /images/profile.jpeg
+  # links:
+  #   - icon: twitter
+  #     text: twitter
+  #     href: https://twitter.com
+  #   - icon: linkedin
+  #     text: linkedin
+  #     href: https://linkedin.com
+  #   - icon: github
+  #     text: github
+  #     href: https://github.com
+page-layout: full
+---
+
+::: {#bio}
+I'm a neuroscientist studying the neural basis of skilled movement, like balancing an umbrella on your hand or moving a cup of coffee without spilling it. I built this website to share my thoughts and experiences as a scientist. Enjoy your stay!
+
+::: {#landing-icons}
+[{{< fa brands github title="github" >}}](https://github.com/raeedcho){target="_blank"} &nbsp; [{{< fa brands linkedin title="linkedin" >}}](https://www.linkedin.com/in/raeedcho/){target="_blank"} &nbsp; [{{< fa envelope title="envelope" >}}](mailto:raeed.chowdhury@gmail.com)
+:::
+:::

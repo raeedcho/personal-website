@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "raeed chowdhury"
+  navbar:
+    title: false
+    right:
+      - href: index.qmd
+        text: home
+      - about.qmd
+      - href: posts.qmd
+        text: posts
+      - text: contact
+        menu:
+          - icon: github
+            text: github
+            href: https://github.com/raeedcho
+          - icon: linkedin
+            text: linkedin
+            href: https://www.linkedin.com/in/raeedcho/
+            target: _blank
+          - icon: envelope
+            text: email
+            href: mailto:raeed.chowdhury@gmail.com
+  page-footer: 
+    left: "© 2024 Raeed Chowdhury"
+    right: "built with [quarto](https://quarto.org){target=_blank} [{{< fa brands github >}}](https://github.com/raeedcho/personal-site){target=_blank}"
+format:
+  html:
+    theme: sketchy
+    css: styles.scss
