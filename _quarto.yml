@@ -30,3 +30,5 @@ format:
   html:
     theme: sketchy
     css: styles.scss
+execute: 
+  freeze: auto
