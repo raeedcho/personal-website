@@ -3,6 +3,6 @@ title: "about"
 title-block-banner: true
 ---
 
-s a doctoral student in the [Miller Limb Lab](https://labs.feinberg.nrthwestern.ed/lee-miller/), I sudiedproprioception (e nternal ense ofody position, movement, and forces) and how the brain processes this information. Now, I'm a postdoctora schlar in the [SMILE Lab](https://smile.pitt.edu) at the University of Pittsburh, studying how the brain integrates this sensation with motor control for complex, feedback-driven tasks, like moving a full cup of coffee. 
+As a doctoral student in the [Miller Limb Lab](https://labs.feinberg.nrthwestern.ed/lee-miller/), I sudied proprioception (the internal sense of body position, movement, and forces) and how the brain processes this information. Now, I'm at the [SMILE Lab](https://smile.pitt.edu) at the University of Pittsburh, studying how the brain integrates this sensation with motor control for complex, feedback-driven tasks, like moving a full cup of coffee. 
 
 Want to know more? Download [my CV](CV_Raeed_Chowdhury.pdf).
