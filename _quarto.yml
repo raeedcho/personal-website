@@ -2,33 +2,49 @@ project:
   type: website
 
 website:
-  title: "raeed chowdhury"
+  title: "Raeed Chowdhury"
   navbar:
-    title: false
+    title: "Raeed Chowdhury"
     right:
       - href: index.qmd
         text: home
-      - about.qmd
-      - href: posts.qmd
-        text: posts
-      - text: contact
-        menu:
-          - icon: github
-            text: github
-            href: https://github.com/raeedcho
-          - icon: linkedin
-            text: linkedin
-            href: https://www.linkedin.com/in/raeedcho/
-            target: _blank
-          - icon: envelope
-            text: email
-            href: mailto:raeed.chowdhury@gmail.com
-  page-footer: 
-    left: "© 2024 Raeed Chowdhury"
-    right: "built with [quarto](https://quarto.org){target=_blank} [{{< fa brands github >}}](https://github.com/raeedcho/personal-site){target=_blank}"
+      - href: research.qmd
+        text: research
+      - href: publications.qmd
+        text: publications
+      - href: blog/index.qmd
+        text: blog
+      - href: resources.qmd
+        text: resources
+  page-footer:
+    left: "© 2026 Raeed Chowdhury"
+    center:
+      - icon: github
+        href: https://github.com/raeedcho
+        aria-label: GitHub
+      - text: "{{< fa brands google-scholar >}}"
+        href: https://scholar.google.com/citations?user=Ab0Y1pwAAAAJ
+        aria-label: Google Scholar
+      - text: "{{< fa brands orcid >}}"
+        href: https://orcid.org/0000-0002-5934-919X
+        aria-label: ORCID
+      - icon: bluesky
+        aria-label: Bluesky
+        href: https://bsky.app/profile/raeedcho.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/raeedcho/
+        aria-label: LinkedIn
+      - icon: envelope-fill
+        href: mailto:raeed.chowdhury@gmail.com
+        aria-label: Email
+    right: "built with [quarto](https://quarto.org){target=_blank}"
+
 format:
   html:
-    theme: sketchy
+    theme: litera
     css: styles.scss
-execute: 
+    code-fold: true
+    code-tools: true
+
+execute:
   freeze: auto

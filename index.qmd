@@ -1,25 +1,27 @@
 ---
-title: "raeed chowdhury"
+title: "Raeed Chowdhury"
 about:
-  template: jolla
-  image: /images/profile.jpeg
-  # links:
-  #   - icon: twitter
-  #     text: twitter
-  #     href: https://twitter.com
-  #   - icon: linkedin
-  #     text: linkedin
-  #     href: https://linkedin.com
-  #   - icon: github
-  #     text: github
-  #     href: https://github.com
-page-layout: full
+  template: trestles
+  image: images/profile.jpeg
+  links:
+    - icon: github
+      text: github
+      href: https://github.com/raeedcho
+    - text: "{{< fa brands google-scholar >}} google scholar"
+      href: https://scholar.google.com/citations?user=Ab0Y1pwAAAAJ
+    - text: "{{< fa brands orcid >}} orcid"
+      href: https://orcid.org/0000-0002-5934-919X
+    - icon: bluesky
+      text: bluesky
+      href: https://bsky.app/profile/raeedcho.com
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/raeedcho/
+    - icon: envelope-fill
+      text: email
+      href: mailto:raeed.chowdhury@gmail.com
 ---
 
-::: {#bio}
-I'm a neuroscientist studying the neural basis of skilled movement, like balancing an umbrella on your hand or moving a cup of coffee without spilling it. I built this website to share my thoughts and experiences as a scientist. Enjoy your stay!
+I'm a Research Assistant Professor in the [SMILE Lab](https://smile.pitt.edu) at the University of Pittsburgh. I study how neural activity in the brain coordinates sensation and movement for complex, feedback-driven tasks — like moving a cup of coffee without spilling it.
 
-::: {#landing-icons}
-[{{< fa brands github title="github" >}}](https://github.com/raeedcho){target="_blank"} &nbsp; [{{< fa brands linkedin title="linkedin" >}}](https://www.linkedin.com/in/raeedcho/){target="_blank"} &nbsp; [{{< fa envelope title="envelope" >}}](mailto:raeed.chowdhury@gmail.com)
-:::
-:::
+I built this site to share my research, methods, and thoughts on neuroscience. Have a look around!

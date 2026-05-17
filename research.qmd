@@ -1,0 +1,18 @@
+---
+title: "research"
+title-block-banner: false
+---
+
+*Coming soon — I'm building out descriptions of my current and past research projects.*
+
+<!-- 
+Organize by scientific question, e.g.:
+
+## How does the brain integrate proprioception with motor control?
+
+Description, representative figure, links to papers and code.
+
+## How do neural populations in motor cortex coordinate movement?
+
+Description, representative figure, links to papers and code.
+-->

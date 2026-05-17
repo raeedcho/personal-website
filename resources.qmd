@@ -1,0 +1,15 @@
+---
+title: "resources"
+title-block-banner: false
+---
+
+*Coming soon — a curated collection of tools, datasets, and references for systems neuroscience and neural data analysis.*
+
+<!--
+Possible sections:
+- Analysis tools (Kilosort, DeepLabCut, etc.)
+- Data repositories (DANDI Archive, OpenNeuro)
+- Data standards (NWB tutorials)
+- My analysis pipelines and code
+- Useful references and textbooks
+-->

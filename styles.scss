@@ -1,1 +1,34 @@
-/* css styles */
+/*-- scss:defaults --*/
+
+/* Accent color — change this one variable to recolor the whole site */
+$primary: #c26a2f;
+$link-color: #c26a2f;
+
+/*-- scss:rules --*/
+
+/* Lowercase nav links (not the site title) */
+.navbar-nav .nav-link {
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+}
+
+/* Keep the site title in standard case with a serif hint */
+.navbar-brand {
+  font-family: Georgia, 'Times New Roman', serif;
+  letter-spacing: 0.01em;
+}
+
+/* Subtle separator between nav and content */
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* Slightly tighter about page layout on homepage */
+.about-entity {
+  margin-top: 1rem;
+}
+
+/* Warm hover state for links */
+a:hover {
+  color: darken(#c26a2f, 10%);
+}

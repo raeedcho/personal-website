@@ -1,0 +1,5 @@
+# Options applied to all posts in this folder
+freeze: true
+author: "Raeed Chowdhury"
+title-block-banner: false
+code-fold: true
