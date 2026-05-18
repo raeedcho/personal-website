@@ -5,20 +5,16 @@ about:
   image: images/profile.jpeg
   links:
     - icon: github
-      text: github
       href: https://github.com/raeedcho
-    - text: "{{< fa brands google-scholar >}} google scholar"
+    - text: "{{< fa brands google-scholar >}}"
       href: https://scholar.google.com/citations?user=Ab0Y1pwAAAAJ
-    - text: "{{< fa brands orcid >}} orcid"
+    - text: "{{< fa brands orcid >}}"
       href: https://orcid.org/0000-0002-5934-919X
     - icon: bluesky
-      text: bluesky
       href: https://bsky.app/profile/raeedcho.com
     - icon: linkedin
-      text: linkedin
       href: https://www.linkedin.com/in/raeedcho/
     - icon: envelope-fill
-      text: email
       href: mailto:raeed.chowdhury@gmail.com
 ---
 

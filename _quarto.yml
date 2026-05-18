@@ -41,7 +41,7 @@ website:
 
 format:
   html:
-    theme: litera
+    theme: simplex
     css: styles.scss
     code-fold: true
     code-tools: true

@@ -7,13 +7,13 @@ $link-color: #c26a2f;
 /*-- scss:rules --*/
 
 /* Lowercase nav links (not the site title) */
-.navbar-nav .nav-link {
+.navbar-nav .nav-link .menu-text {
   text-transform: lowercase;
   letter-spacing: 0.02em;
 }
 
 /* Keep the site title in standard case with a serif hint */
-.navbar-brand {
+.navbar-title {
   font-family: Georgia, 'Times New Roman', serif;
   letter-spacing: 0.01em;
 }
