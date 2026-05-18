@@ -44,7 +44,7 @@ format:
     theme: simplex
     css: styles.scss
     code-fold: true
-    code-tools: true
+    code-tools: false
 
 execute:
   freeze: auto
