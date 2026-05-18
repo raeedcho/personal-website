@@ -7,7 +7,7 @@ $link-color: #c26a2f;
 /*-- scss:rules --*/
 
 /* Lowercase nav links (not the site title) */
-.navbar-nav .nav-link .menu-text {
+.navbar-nav .nav-item .nav-link {
   text-transform: lowercase;
   letter-spacing: 0.02em;
 }
