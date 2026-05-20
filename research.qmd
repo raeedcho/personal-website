@@ -3,16 +3,36 @@ title: "research"
 title-block-banner: false
 ---
 
-*Coming soon — I'm building out descriptions of my current and past research projects.*
+My long-term goal is to understand how the brain controls skilled, real-world movement and how higher cognition interacts with motor skill. I approach this from a quantitative perspective, combining behavioral experiments in monkeys with neural population analysis and computational modeling.
 
-<!-- 
-Organize by scientific question, e.g.:
+For a full list of publications, see my [Google Scholar profile](https://scholar.google.com/citations?user=Ab0Y1pwAAAAJ).
 
-## How does the brain integrate proprioception with motor control?
+## How does the brain process proprioceptive feedback?
 
-Description, representative figure, links to papers and code.
+Proprioception (the sense of body position, movement, and associated forces) is critical for coordinated movement, but not well understood at the neural level. Classic studies have typically characterized proprioceptive coding in terms of the hand's position in space, but the actual sensors are in muscles and joints. I've been working to bridge this gap at multiple levels of the nervous system.
 
-## How do neural populations in motor cortex coordinate movement?
+In one project, I showed through simulation that an apparent endpoint representation of the limb can arise at a surprisingly early stage in the somatosensory pathway, simply through convergent, linear input from muscles ([Chowdhury, Tresch & Miller, 2017](https://doi.org/10.1152/jn.00695.2016)). In another, I characterized area 2 of somatosensory cortex, showing that neural activity there encodes kinematics of the whole arm — not just the endpoint — and that passive movements are encoded differently from active reaches ([Chowdhury, Glaser & Miller, 2020](https://doi.org/10.7554/elife.48198)). This work also contributed to studies of the cuneate nucleus, a subcortical relay for proprioceptive signals ([Versteeg, Chowdhury & Miller, 2021](https://doi.org/10.1016/j.cophys.2021.02.004); [Suresh et al., 2017](https://doi.org/10.1152/jn.00436.2017)).
 
-Description, representative figure, links to papers and code.
--->
+My published datasets from this work have been used in at least four other publications by other groups.
+
+## What does motor cortex look like during feedback-driven movement?
+
+Carnival games contain a library of movements we can make, from throwing a ball, to playing whack-a-mole, to balancing a pole on your hand. These movements are driven by sensory feedback to different degrees — unlike throwing, pole-balancing requires continuous feedback-driven adjustments. Motor neuroscience has explored feedforward tasks like reaching in great depth, but we understand far less about the neural control of highly feedback-driven tasks.
+
+To study this, I developed a virtual "balancing" task called the Critical Stability Task (CST), where monkeys make arm movements to stabilize an unstable virtual cursor — something like balancing a broom on your fingertip. This behavior is highly complex: no two trials are the same, and subjects can use many different strategies. So far, I've found that neural population activity during this feedback-driven task evolves differently from activity during more discrete, ballistic reaching, despite similar hand kinematics ([Sadeghi et al., 2024](https://doi.org/10.7554/eLife.88514.3)). This work is ongoing.
+
+## How do stable neural dynamics support consistent behavior?
+
+Once we learn a task like pouring a glass of water, we can perform it consistently for years. This implies some stability in the brain underlying behavioral consistency — but studying this has been difficult, because chronically implanted electrodes tend to drift over time, with no guarantee of recording the same neurons across sessions.
+
+Working with Gallego, Perich, and colleagues, we found a signature of behavioral stability in the neural population: the structure and dynamics of population activity during reaching remained stable for up to two years, even though the individual neurons being recorded changed over time. This stability held across primary motor cortex, premotor cortex, and somatosensory cortex ([Gallego et al., 2020](https://doi.org/10.1038/s41593-019-0555-4)). Follow-up work showed that local field potentials reflect these population dynamics in region-specific and frequency-dependent ways ([Gallego-Carracedo et al., 2022](https://doi.org/10.7554/eLife.73155)).
+
+## Machine learning for neural data
+
+As recording technology has advanced, neuroscience has entered an era of massive population datasets. Bespoke analysis of single neurons can't by itself explain how behavior arises from the brain — modern machine learning offers a path forward, from extracting low-dimensional latent factors to testing hypotheses about neural mechanisms.
+
+My contributions have included benchmarking modern machine learning techniques against classical approaches for neural decoding ([Glaser et al., 2020](https://doi.org/10.1523/ENEURO.0506-19.2020)), providing high-quality datasets for the Neural Latents Benchmark ([Pei et al., 2021](https://doi.org/10.48550/arXiv.2109.04463)), and contributing data and analysis to work on large-scale neural network training frameworks ([Keshtkaran et al., 2022](https://doi.org/10.1038/s41592-022-01675-0)) and computational models of motor learning ([Feulner et al., 2022](https://doi.org/10.1038/s41467-022-32646-w)).
+
+## What's next
+
+I'm expanding my research to study more cognitive aspects of skilled movement: how we learn entirely new skills from scratch, how we develop expertise, and how cognition can sometimes interfere with skilled performance — as when we choke under pressure.

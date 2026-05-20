@@ -10,8 +10,6 @@ website:
         text: home
       - href: research.qmd
         text: research
-      - href: publications.qmd
-        text: publications
       - href: blog/index.qmd
         text: blog
       - href: resources.qmd
